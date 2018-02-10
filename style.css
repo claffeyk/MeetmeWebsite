@@ -1,0 +1,10 @@
+h1 {
+    font-size: 100px;
+    position: relative;
+    letter-spacing: 6px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h6 {
+   font-size: 25px; 
+}

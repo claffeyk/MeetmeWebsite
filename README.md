@@ -1,1 +1,2 @@
-<!--- MeetmeWebsite --->This website consists of the wireframe, tinkering/building process, and results of the MeetMe app, which connects people within a radius to give them the opportunity to socialize and meet new people!
+<!--- MeetmeWebsite --->
+This website consists of the wireframe, tinkering/building process, and results of the MeetMe app, which connects people within a radius to give them the opportunity to socialize and meet new people!
