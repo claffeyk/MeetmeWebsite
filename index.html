@@ -10,13 +10,13 @@
 <body class="w3-content w3-black" style="max-width:1500px;">
 <!-- Header with Slideshow -->
 <header class="w3-display-container w3-center">
-  
+
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <div class="mySlides w3-animate-opacity">
-    <img class="image1" src="pictures/resaturant1.jpg" alt="Image 1" width=100%>  
+    <img class="image1" id="home" src="pictures/resaturant1.jpg" alt="Image 1" width=100%>  
       <img class="image2" src="pictures/logo.PNG"  />
     <div class="centered1">
-<br><br><br><br><br>
+
         </div>
         </div>
 
@@ -36,7 +36,7 @@
   </div>
 
 </header>
-
+<div class="w3-col l8 m6" id="wireframe"></div>
 <!-- The App Section -->
 <div class="w3-padding-64 w3-white">
         <div class="container" id="images">
@@ -105,12 +105,16 @@
   </div>
   </div>
 </div>
-<!-- Clarity Section -->
+<!-- About Section -->
+<div class="w3-col l8 m6" id="Us">
+      </div><br>
 <div class="w3-padding-64 w3-light-grey">
   <div class="w3-row-padding">
+    
     <div class="w3-col l4 m6">
       <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/596/667/datas/original.png" alt="App" width=100% height=100%>
     </div>
+    
     <div class="w3-col l8 m6">
       <h1 class="w3-jumbo"><b>About Us</b></h1>
       <h1 class="w3-xxxlarge w3-text-red"><b>Created by Joey, Sharon, and Kathryn</b></h1>
@@ -120,7 +124,42 @@
     </div>
   </div>
 </div>
+ <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#wireframe">App</a></li>
+  <li><a href="#Us">About</a></li>
+</ul>
+</div>
+
+</body>
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
   
