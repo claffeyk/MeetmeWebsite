@@ -33,7 +33,6 @@ h2 {
 .image4 {
     width: 100%;
     height: auto;
-     float: left;
 }
 .centered1 {
     position: absolute;
@@ -49,9 +48,12 @@ p {
 }
 
 .navbar {
-    overflow: hidden;
     background-color: grey;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+}
+
+div {
+    width: 100%;
 }
